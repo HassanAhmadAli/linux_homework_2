@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 for file in `find . -type f -name "*x"`; do
     if [ -f "$file" ]; then
