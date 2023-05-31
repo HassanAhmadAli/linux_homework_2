@@ -1,7 +1,7 @@
 #!/bin/bash
 
-for file in *x; do
+for file in `find . -type f -name "*x"`; do
     if [ -f "$file" ]; then
         echo "\nHello Linux" >> "$file"
-    fi
+    fi 
 done
