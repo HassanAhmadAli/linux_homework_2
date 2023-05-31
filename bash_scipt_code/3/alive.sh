@@ -18,7 +18,7 @@ fi
 ip1=$(echo $1 | cut -d'-' -f1)  
 ip2=$(echo $1 | cut -d'-' -f2)  
 
-# Validate octets is in range [0 , 255] which is the possible values of an octet
+# Validate octets is in range 0 to 255 = ((2^8)-1) which is the possible values of an octet
 for ip in $ip1 $ip2; do
     oct1=$(echo $ip | cut -d. -f1)
     oct2=$(echo $ip | cut -d. -f2)
