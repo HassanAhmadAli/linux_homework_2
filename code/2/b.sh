@@ -1,1 +1,1 @@
-touch file{1..10}_{a..z}
+touch ~/file{1..10}_{a..z}

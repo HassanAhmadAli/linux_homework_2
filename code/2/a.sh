@@ -1,1 +1,1 @@
-mkdir -p $HOME/temp/
+mkdir -p ~/temp/
